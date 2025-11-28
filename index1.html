@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyTrail Travels — Discover Your Next Destination</title>
+
+  <!-- Google Font (optional, still pure HTML+CSS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <!-- Skip Link for accessibility -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">S</span>
+        <span class="logo-text">SkyTrail Travels</span>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#courses">Destinations</a></li>
+          <li><a href="#pricing">Packages</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main-content">
+    <!-- HERO / BANNER -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-eyebrow">PREMIUM TRAVEL AGENCY</p>
+          <h1>Plan unforgettable trips with hassle-free bookings.</h1>
+          <p class="hero-subtitle">
+            From weekend getaways to international vacations, SkyTrail Travels
+            designs personalized itineraries so you can just relax and enjoy.
+          </p>
+          <div class="hero-actions">
+            <a href="#courses" class="btn btn-primary">Explore Destinations</a>
+            <a href="#pricing" class="btn btn-outline">View Packages</a>
+          </div>
+          <ul class="hero-highlights">
+            <li>✔ Domestic & International tours</li>
+            <li>✔ Flight, hotel & sightseeing included</li>
+            <li>✔ 24×7 travel support</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card hero-card-main">
+            <h2>Upcoming Trip Overview</h2>
+            <p>Manali – 4 Nights / 5 Days</p>
+            <div class="progress-bar">
+              <div class="progress-value" style="width: 75%"></div>
+            </div>
+            <p class="progress-label">Booking in progress (75%)</p>
+          </div>
+
+          <div class="hero-card hero-card-secondary">
+            <p class="label">Happy travellers</p>
+            <p class="value">25,000+</p>
+          </div>
+
+          <div class="hero-card hero-card-secondary">
+            <p class="label">Destinations covered</p>
+            <p class="value">60+ cities</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features">
+      <div class="container">
+        <header class="section-header">
+          <h2>Why travel with SkyTrail?</h2>
+          <p>End-to-end planning, best prices, and complete peace of mind.</p>
+        </header>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <h3>Custom Itineraries</h3>
+            <p>
+              Trips designed as per your dates, budget, and preferences —
+              honeymoon, family, solo, or group.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <h3>All-Inclusive Packages</h3>
+            <p>
+              Flights, hotels, meals, transfers, and sightseeing — everything
+              handled by our expert team.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <h3>24×7 Travel Assistance</h3>
+            <p>
+              Our support team is available round the clock to assist you during
+              your trip.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTINATIONS GRID (reusing .courses section) -->
+    <section id="courses" class="courses">
+      <div class="container">
+        <header class="section-header">
+          <h2>Popular Destinations</h2>
+          <p>Handpicked experiences across India and abroad.</p>
+        </header>
+
+        <div class="layout-with-aside">
+          <!-- Optional sidebar / filters -->
+          <aside class="filters" aria-label="Destination filters">
+            <h3>Travel Type</h3>
+            <ul>
+              <li><a href="#" class="tag tag-active">All</a></li>
+              <li><a href="#" class="tag">Honeymoon</a></li>
+              <li><a href="#" class="tag">Family</a></li>
+              <li><a href="#" class="tag">Friends</a></li>
+              <li><a href="#" class="tag">Solo</a></li>
+            </ul>
+
+            <h3>Region</h3>
+            <ul>
+              <li><span class="badge">India</span></li>
+              <li><span class="badge">International</span></li>
+              <li><span class="badge">Beaches</span></li>
+              <li><span class="badge">Hills</span></li>
+            </ul>
+          </aside>
+
+          <!-- Destinations grid -->
+          <div class="courses-grid">
+            <!-- DESTINATION 1 -->
+            <article class="course-card">
+              <img
+                src="manali_snow.jpg"
+                alt="Scenic view of Manali mountains with snow"
+              />
+              <div class="course-content">
+                <h3>Manali & Solang Valley</h3>
+                <p>
+                  4 Nights / 5 Days — snow-clad peaks, adventure sports,
+                  and local Himachali culture.
+                </p>
+                <div class="course-meta">
+                  <span>From ₹12,999 / person</span>
+                  <span>★ Hill Station</span>
+                </div>
+                <button class="btn btn-sm">View Itinerary</button>
+              </div>
+            </article>
+
+            <!-- DESTINATION 2 -->
+            <article class="course-card">
+              <img
+                src="goa_beach.jpg"
+                alt="Beachside view of Goa with palm trees and sunset"
+              />
+              <div class="course-content">
+                <h3>Goa Beach Escape</h3>
+                <p>
+                  3 Nights / 4 Days — beaches, nightlife, water sports, and
+                  Portuguese heritage walks.
+                </p>
+                <div class="course-meta">
+                  <span>From ₹9,999 / person</span>
+                  <span>★ Beach</span>
+                </div>
+                <button class="btn btn-sm">View Itinerary</button>
+              </div>
+            </article>
+
+            <!-- DESTINATION 3 -->
+            <article class="course-card">
+              <img
+                src="dubai_building.webp"
+                alt="Night skyline of Dubai with tall buildings"
+              />
+              <div class="course-content">
+                <h3>Dubai Highlights Tour</h3>
+                <p>
+                  5 Nights / 6 Days — Desert safari, Burj Khalifa, Dhow cruise, and
+                  city sightseeing.
+                </p>
+                <div class="course-meta">
+                  <span>From ₹49,999 / person</span>
+                  <span>★ International</span>
+                </div>
+                <button class="btn btn-sm">View Itinerary</button>
+              </div>
+            </article>
+
+            <!-- DESTINATION 4 -->
+            <article class="course-card">
+              <img
+                src="kerala_view.jpg"
+                alt="Backwaters of Kerala with houseboat"
+              />
+              <div class="course-content">
+                <h3>Kerala Backwater Retreat</h3>
+                <p>
+                  5 Nights / 6 Days — Munnar, Alleppey houseboat, and serene
+                  backwaters.
+                </p>
+                <div class="course-meta">
+                  <span>From ₹18,499 / person</span>
+                  <span>★ Nature</span>
+                </div>
+                <button class="btn btn-sm">View Itinerary</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACKAGES / PRICING SECTION -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <header class="section-header">
+          <h2>Holiday Packages</h2>
+          <p>Flexible plans for every type of traveller.</p>
+        </header>
+
+        <div class="pricing-grid">
+          <!-- PACKAGE 1 -->
+          <article class="price-card">
+            <h3>Weekend Getaway</h3>
+            <p class="price">
+              <span>₹</span>7,999<span class="price-period">/person</span>
+            </p>
+            <ul class="price-features">
+              <li>2 Nights hotel stay</li>
+              <li>Breakfast included</li>
+              <li>Local sightseeing tour</li>
+              <li>Airport / railway transfers</li>
+            </ul>
+            <button class="btn btn-secondary">Enquire Now</button>
+          </article>
+
+          <!-- PACKAGE 2 -->
+          <article class="price-card price-card-featured">
+            <p class="badge-highlight">Most Booked</p>
+            <h3>Classic Holiday</h3>
+            <p class="price">
+              <span>₹</span>18,999<span class="price-period">/person</span>
+            </p>
+            <ul class="price-features">
+              <li>4–5 Nights stay</li>
+              <li>Daily breakfast & 1 dinner</li>
+              <li>City tours & activities</li>
+              <li>Dedicated trip coordinator</li>
+            </ul>
+            <button class="btn btn-primary">Book Package</button>
+          </article>
+
+          <!-- PACKAGE 3 -->
+          <article class="price-card">
+            <h3>Luxury Escape</h3>
+            <p class="price">
+              <span>₹</span>39,999<span class="price-period">/person</span>
+            </p>
+            <ul class="price-features">
+              <li>4–6 Nights in 4★ / 5★ hotels</li>
+              <li>Private transfers</li>
+              <li>Premium experiences</li>
+              <li>Customized day-wise itinerary</li>
+            </ul>
+            <button class="btn btn-secondary">Talk to Expert</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS / TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <header class="section-header">
+          <h2>Traveller Reviews</h2>
+          <p>Hear from people who explored the world with SkyTrail.</p>
+        </header>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <p class="quote">
+              “Our honeymoon trip to Maldives was perfectly planned.
+              Flights, resort, and transfers were all smooth.”
+            </p>
+            <p class="author">— Riya & Aman, New Delhi</p>
+          </article>
+
+          <article class="testimonial-card">
+            <p class="quote">
+              “The team was always available on call during our Dubai tour.
+              Highly recommended for family trips!”
+            </p>
+            <p class="author">— Gupta Family, Jaipur</p>
+          </article>
+
+          <article class="testimonial-card">
+            <p class="quote">
+              “Loved the customized Manali itinerary and hotel selection.
+              It was a hassle-free vacation.”
+            </p>
+            <p class="author">— Karan, Chandigarh</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / BOOKING INQUIRY FORM -->
+    <section id="contact" class="contact">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <h2>Plan your next trip with us.</h2>
+          <p>
+            Share your details and our travel expert will suggest best
+            destinations and packages as per your budget.
+          </p>
+          <ul class="contact-list">
+            <li>Email: trips@skytrailtravels.com</li>
+            <li>Phone: +91-98765-43210</li>
+            <li>Office Hours: Mon–Sat, 10:00 AM – 7:00 PM</li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-field">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="interest">Preferred Destination Type</label>
+            <select id="interest" name="interest" required>
+              <option value="">Select an option</option>
+              <option value="beach">Beach</option>
+              <option value="hills">Hills / Mountains</option>
+              <option value="international">International</option>
+              <option value="city">City Break</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Trip Details</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Mention dates, number of travellers, budget, etc."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Submit Travel Enquiry
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-column">
+        <h3>SkyTrail Travels</h3>
+        <p>
+          Curating memorable holidays with personalized service, transparent
+          pricing, and end-to-end support.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#courses">Destinations</a></li>
+          <li><a href="#pricing">Packages</a></li>
+          <li><a href="#contact">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Follow us</h3>
+        <div class="social-icons" aria-label="Social media links">
+          <!-- Simple SVG icons -->
+          <a href="#" aria-label="Visit our X profile">
+            <svg viewBox="0 0 24 24" class="icon">
+              <path
+                d="M4 4h4l4 6 4-6h4l-6 8 6 8h-4l-4-6-4 6H4l6-8-6-8z"
+              ></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Visit our Instagram profile">
+            <svg viewBox="0 0 24 24" class="icon">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="17" cy="7" r="1"></circle>
+            </svg>
+          </a>
+          <a href="#" aria-label="Visit our LinkedIn profile">
+            <svg viewBox="0 0 24 24" class="icon">
+              <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+              <rect x="7" y="10" width="2" height="7"></rect>
+              <circle cx="8" cy="7" r="1"></circle>
+              <path d="M12 10h2v1a2 2 0 0 1 3 2v4h-2v-4a1 1 0 0 0-2 0v4h-2z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 SkyTrail Travels. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
